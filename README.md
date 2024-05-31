@@ -24,7 +24,7 @@ In summary, the integration of 3D Motion Capture technology revolutionizes the l
 
 ## How to work:
 ### Python Program in PyCharm:
-
+### Code
 cap = cv2.VideoCapture('Video.mp4')
 detector = PoseDetector()
 posList = []
@@ -85,6 +85,23 @@ while True:
 - Performs Motion Capture from a video recorded using a standard webcam.
 
 ### C# Source Code in Unity:
+### Code:
+
+    void Update()
+    {
+        string[] points = lines[counter].Split(',');
+
+        for(int i = 0; i <=32; i++) 
+        {
+            float x = float.Parse(points[0 + (i * 3)]) / 100;
+            float y = float.Parse(points[1 + (i * 3)]) / 100;
+            float z = float.Parse(points[2 + (i * 3)]) / 300;
+            Body[i].transform.localPosition = new Vector3(x, -y, z);
+        }
+        
+        counter += 1;
+        if (counter == lines.Count) {  counter = 0; }
+        Thread.Sleep(30);
 
 #### How it works:
 - Uses Unity to create a 3D environment and display objects.
