@@ -34,7 +34,7 @@ In summary, the integration of 3D Motion Capture technology revolutionizes the l
 #### Python Program in PyCharm:
 #### Code(MotionCapture.py):
 
-   if bboxInfo:
+      if bboxInfo:
         frame_pos_list = []
         for lm in lmList:
             # Ensure lm has at least 3 elements (x, y, z)
@@ -77,7 +77,7 @@ In summary, the integration of 3D Motion Capture technology revolutionizes the l
 ### C# Source Code in Unity:
 #### Code(AnnimationCode):
 
-   public class AnimationCode : MonoBehaviour
+      public class AnimationCode : MonoBehaviour
 {
 
     public GameObject[] Body;
