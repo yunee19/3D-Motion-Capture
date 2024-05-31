@@ -21,14 +21,10 @@ From crafting mesmerizing music videos to hosting captivating livestreams, the v
 Join a vibrant community of creators and enthusiasts passionate about the art of virtual idol creation. Share your creations, collaborate with fellow enthusiasts, and stay abreast of the latest trends and techniques in the ever-evolving world of virtual entertainment.
 
 In summary, the integration of 3D Motion Capture technology revolutionizes the landscape of virtual idol creation, opening up a realm of endless possibilities. With our platform, users can unleash their creativity and breathe life into their virtual idols in unprecedented ways. Embark on this exhilarating journey with us as we pave the way for the future of entertainment and creativity.
-```
+
 ## How to work:
 ### Python Program in PyCharm:
-code:
-import cv2
-from cvzone.PoseModule import PoseDetector
 
-# Initialize video capture and pose detector
 cap = cv2.VideoCapture('Video.mp4')
 detector = PoseDetector()
 posList = []
@@ -78,10 +74,6 @@ while True:
         with open("AnimationFile.txt", 'w') as f:
             f.writelines("%s\n" % item for item in posList)
         print("Data saved to AnimationFile.txt")
-
-# Release video capture and destroy all windows
-cap.release()
-cv2.destroyAllWindows()
 
 
 #### How it works:
