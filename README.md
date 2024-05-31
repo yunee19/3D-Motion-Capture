@@ -1,5 +1,6 @@
 # 3D-Motion-Capture
-#The Boundless Potential of 3D Motion Capture in Virtual Idol Creation
+
+# The Boundless Potential of 3D Motion Capture in Virtual Idol Creation
 
 In today's digital landscape, the phenomenon of virtual idol creation has surged in popularity, offering users an immersive and interactive experience across various platforms. Through the utilization of cutting-edge technology, specifically 3D Motion Capture facilitated by Normal Webcams and Computer Vision libraries like OpenCV, we embark on a thrilling adventure into the realm of virtual idol production.
 
