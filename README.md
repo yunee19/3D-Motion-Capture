@@ -113,7 +113,7 @@ AUTHOR: [Murtaza Hassan](https://murtazahassan.com/)
 
 The youtube video :[3D Motion Capture using Normal Webcam | Computer Vision OpenCV ](https://www.youtube.com/watch?v=BtMs0ysTdkM)
 
-Here are the differences between the original code and the modified code, along with the reasons and effects of the modifications:
+Here are the differences between the original code and my code, along with the reasons and effects of the modifications:
 
 ### 1. **MotionCapture (Python Code):**
    - **Original Code:**
